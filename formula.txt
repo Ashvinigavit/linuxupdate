@@ -1,0 +1,3 @@
+Eligible: IF(age_c < 18, "No", "Yes")
+Aadhar : REGEX([0-9]{12})
+Pan Card: REGEX([A-Z]{5}[0-9]{4}[A-Z])
